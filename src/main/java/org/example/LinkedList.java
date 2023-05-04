@@ -1,9 +1,9 @@
 package org.example;
 
 
-public class LinkedListPractice {
+public class LinkedList {
     ListNode<Integer> listNode;
-    public LinkedListPractice() {
+    public LinkedList() {
         listNode = createListNode(new int[]{1, 2, 3, 4, 5});
     }
     public Integer searchByIndex(int index) {
