@@ -2,7 +2,8 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-//        LinkedList linkedListSearch = new LinkedList();
+        LinkedList linkedList = new LinkedList();
+        System.out.println(linkedList.nodeSize());
 //        linkedListSearch.searchByValue(3);
 //        linkedListSearch.insertNode(4, 5);
 //        System.out.println(linkedListSearch.insertNode(9, 2));
@@ -10,7 +11,10 @@ public class Main {
 //        System.out.println(linkedListSearch.deleteNode(1));
 //        Recursive.printIncreasingNumber(5);
 //        Recursive.printDecreasingNumber(5);
-        System.out.println(Recursive.sumOfaRun(5));
+//        System.out.println(Recursive.sumOfaRun(5));
+        System.out.println(linkedList.insertNode(null, 0, 0));
+        System.out.println(linkedList.insertNode(null, 8, 8));
+        System.out.println(linkedList.insertNode(null, 99, 1));
 
     }
 
