@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RecursiveTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-05-04T08:20:33" hostname="AMPACADEMY-AUTI" time="0.028">
+  <properties/>
+  <testcase name="searchValue_returnsFalse()" classname="RecursiveTest" time="0.024"/>
+  <testcase name="searchValue_returnsTrue()" classname="RecursiveTest" time="0.003"/>
+  <system-out><![CDATA[true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

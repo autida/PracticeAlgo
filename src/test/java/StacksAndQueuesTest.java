@@ -2,7 +2,6 @@ import org.example.StacksAndQueues;
 import org.junit.jupiter.api.Test;
 
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class StacksAndQueuesTest {
@@ -13,8 +12,6 @@ public class StacksAndQueuesTest {
                         && StacksAndQueues.isValid("{[]}")
                         && StacksAndQueues.isValid("()")
                 );
-        //  && StacksAndQueues.isValid("()")
-        // && StacksAndQueues.isValid("{[]}")
     }
 
     @Test

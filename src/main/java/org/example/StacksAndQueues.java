@@ -1,7 +1,6 @@
 package org.example;
 
 import java.util.Stack;
-import java.util.function.Supplier;
 
 public class StacksAndQueues {
     /*

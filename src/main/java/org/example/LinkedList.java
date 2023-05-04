@@ -113,7 +113,7 @@ public class LinkedList {
         return cnt;
     }
 
-    private static ListNode<Integer> createListNode(int[] arr) {
+    public static ListNode<Integer> createListNode(int[] arr) {
         ListNode<Integer> head = null;
         ListNode<Integer> tail = null;
         for(Integer ar: arr) {

@@ -19,4 +19,41 @@ public class Recursive {
         }
         return sumOfaRun(n -1 ) + n;
     }
+
+
+    /*PROBLEM:
+    * Search a linked list for a value. Return true if the value was found.
+    *
+    * YOU MUST SOLVE THIS RECURSIVELY.
+    *
+    * Try to find the recursive definition: "Searching a linked list is like
+    * doing something with this node, then searching the remainder of the linked list."
+    *
+    * What's a good base case?
+    *
+    * EXAMPLES:
+    *   head: 1 -> 7 -> 9
+    *   value: 2
+    *
+    *   result: false
+    *
+    *   head: 1 -> 7 -> 9
+    *   value: 9
+    *
+    *   result: true
+    *
+    * */
+
+    public static boolean searchValue(ListNode<Integer> head, int value) {
+        if(head == null) {
+            return false;
+        }
+        if(head.value == value) {
+            return true;
+        }
+        return searchValue(head.next, value);
+
+
+
+    }
 }
