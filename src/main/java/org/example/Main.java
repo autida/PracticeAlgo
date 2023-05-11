@@ -17,6 +17,7 @@ public class Main {
 //        System.out.println(linkedList.insertNode(null, 99, 1));
         BinaryTreeOperation btOperation  = new BinaryTreeOperation();
         System.out.println(btOperation.insertNode(new int[]{1, 2, 6,8,9}));
+        System.out.println(btOperation.searchNode(btOperation.insertNode(new int[]{1, 2, 6,8,9}), 21));
 
     }
 

@@ -32,8 +32,7 @@ public class BinaryTreeOperation {
             else
                 set root = right
         */
-
-      for(int v: values) {
+        for(int v: values) {
           BSTNode<Integer> newNode = new BSTNode<>(v);
           BSTNode<Integer> curNode = root;
           BSTNode<Integer> parentNode = null;
@@ -62,6 +61,20 @@ public class BinaryTreeOperation {
       }
         return root;
     }
-
+    public boolean searchNode(BSTNode<Integer> parentNode, int v) {
+        BSTNode<Integer> curNode = parentNode;
+        if(curNode == null) {
+            return false;
+        }
+        if(curNode.value == v) {
+            return true;
+        }
+        if(v > curNode.value) {
+            return searchNode(curNode.right, v);
+        } else if(v < curNode.value) {
+            return searchNode(curNode.left, v);
+        }
+        return false;
+    }
 
 }
