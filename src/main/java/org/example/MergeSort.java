@@ -48,6 +48,6 @@ public class MergeSort {
     }
     public static int[] mergeSortSol(int[] a) {
         mergeSort(a, 0, a.length - 1);
-        return null;
+        return a;
     }
 }
