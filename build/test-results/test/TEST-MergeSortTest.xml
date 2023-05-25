@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MergeSortTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-05-25T08:27:57" hostname="AMPACADEMY-AUTI" time="0.032">
-  <properties/>
-  <testcase name="mergeSort1_arrayEqual()" classname="MergeSortTest" time="0.028"/>
-  <testcase name="mergeSort2_arrayEqual()" classname="MergeSortTest" time="0.001"/>
-  <testcase name="mergeSort3_arrayEqual()" classname="MergeSortTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
